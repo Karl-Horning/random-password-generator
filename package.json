@@ -24,5 +24,8 @@
   "homepage": "https://github.com/Karl-Horning/random-password-generator#readme",
   "devDependencies": {
     "electron": "^16.0.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
