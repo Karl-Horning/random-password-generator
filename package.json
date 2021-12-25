@@ -1,0 +1,28 @@
+{
+  "name": "random-password-generator",
+  "version": "1.0.0",
+  "description": "Generates a random password",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karl-Horning/random-password-generator.git"
+  },
+  "keywords": [
+    "node",
+    "passwords",
+    "npm",
+    "electron"
+  ],
+  "author": "Karl Horning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karl-Horning/random-password-generator/issues"
+  },
+  "homepage": "https://github.com/Karl-Horning/random-password-generator#readme",
+  "devDependencies": {
+    "electron": "^16.0.5"
+  }
+}
