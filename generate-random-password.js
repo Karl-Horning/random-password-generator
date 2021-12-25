@@ -13,8 +13,8 @@ function generateRandomPassword() {
     let randomChr
     let randomNum
 
-    for (let i = 1; i < 16; i++) {
-        if (i % 4 === 0) {
+    for (let i = 1; i < 21; i++) {
+        if (i % 7 === 0) {
             randomChr = '-'
         } else {
             randomNum = getRandomInt(characters.length)
