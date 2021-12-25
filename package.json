@@ -4,7 +4,8 @@
   "description": "Generates a random password",
   "main": "app.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "watch": "nodemon --exec electron ."
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,8 @@
   },
   "homepage": "https://github.com/Karl-Horning/random-password-generator#readme",
   "devDependencies": {
-    "electron": "^16.0.5"
+    "electron": "^16.0.5",
+    "nodemon": "^2.0.15"
   },
   "dependencies": {
     "bootstrap": "^5.1.3"
